@@ -1,2 +1,20 @@
-Instruksi:
-- jawab soal dan taruh solusi di folder ini!
+1. Kapan kita harus menggunakan relational database atau nosql database ?
+
+Secara umumnya penggunaan relational database cocok untuk aplikasi yang memerlukan konsistensi data yang tinggi, relasi antar tabel yang kompleks serta query yang kompleks. Penggunaan Relational Database lebih cocok untuk data yang terstruktur dengan baik seperti data transaksional. Untuk penerapan Relational Database biasanya diterapkan pada e-commerce, manajemen inventori, CRM, ERP dan DBMS.
+
+Untuk NoSQL sendiri lebih cocok untuk aplikasi yang memerlukan volume data yang besar, latensi rendah dan model data yang fleksibel, dan cocok untuk data yang tidak terstruktur, semi-terstrukut seperti data media sosial, data analitik, dan data geospasial. Penerapannya biasanya digunakan pada aplikasi media sosial, game, IoT, real-time.
+
+
+2. Apa perbedaan antara database, data lake, data warehouse, dan data mart ?
+
+Database merupakan kumpulan data yang terorganisir serta terstruktur, dan dapat diakses dengan mudah. Database biasanya terdiri dari tabel, kolom dan baris. 
+
+Data Lake merupakan repositori umum yang mampu menyimpan data dalam jumlah besar tanpa mempertahankan struktur data tertentu. Biasanya jenis datanya tidak terstruktur atau semi-terstruktur. Data Lek sendiri dapat menyimpan data dari berbagai sumber, termasuk data transaksional, data analitik, dan data media sosial
+
+Data Warehouse merupakan tempat penyimpanan data terstruktur yang nantinya akan digunakan untuk analisis. Data warehouse basanya menyimpan data historis dari berbagai sumber
+
+Data Mart merupakan data terstruktur yang digunakan untuk tujuan tertentu. Data mart biasanya digunakan untuk unit bisnis seperti departemen keuangan, pemasaran, atau penjualan perusahaan
+
+
+3. Jelaskan apa itu normalisasi database, dan normalisasikan tabel dibawah !
+Normalisasi database merupakan proses memperbaiki struktur database untuk mengurangi duplikasi data dan memastikan konsistensi data dalam database. Tujuannya untuk mengorganisir data dalam struktur yang efisien dan mudah dimengerti.

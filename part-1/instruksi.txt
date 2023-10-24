@@ -1,2 +1,36 @@
-Instruksi:
-- jawab soal dan taruh solusi di folder ini!
+1. Apa peran utama data engineer dalam ekosistem data? Bagaimana peran ini berbeda dari data scientist dan data analyst?
+
+untuk membangun dan memelihara infrastruktur data yang diperlukan untuk mengumpulkan, menyimpan, dan mengelola data dalam skala besar. Data engineer juga bertanggung jawab untuk memastikan data dapat diakses dengan akurat oleh data scientist, data analyst untuk dianalisis agar nantinya menghasilkan wawasan
+
+2. Berikan beberapa contoh peran dari seorang Data Engineer yang mungkin bersinggungan atau bahkan sama dengan peran Data Scientist dan Data Analyst!
+
+Data engineer berfokus pada infrastruktur data, sedangkan data scientist dan data analyst fokus pada analisis data
+
+Data engineer bertanggung jawab dalam mengumpulkan, menyimpan, membersihkan data dan mengelola data. 
+Data Analyst bertanggung jawab mengeksplorasi data, dan menghasilkan laporan dari data yang telah dianalisis dan memvisualisasikan
+Data Scientist bertanggung jawab dalam menemukan pola dan tren dalam data
+
+
+Peran dari seorang data engineer yang mungkin bersinggungan atau bahkan sama dengan peran data scientist dan data analyst
+
+Data engineer bekerja sama dengan data scientist untuk mengembangkan pipeline data yang dapat digunakan untuk memproses data transaksional dari sistem e-commerce. Pipeline data ini digunakan data scientist untuk menganalisis data dan mengidentifikasi pola perilaku pelanggan
+
+Data engineer bekerjasama dengan data analyst untuk memprediksi pola penggunaan data dari aplikasi seluler. Model data ini kemudian digunakan oleh data analyst untuk menghasilkan laporan tentang penggunaan aplikasi seluler
+
+Data engineer bekerja sama dengan data analyst untuk mengembangkan alat dan teknik baru untuk mengeksplorasi dan menganalisis data penjualan
+
+3. Jelaskan langkah-langkah proses ETL dan ELT yang berperan dalam pekerjaan seorang Data Engineer!
+Langkah-langkah 
+ETL:
+Extract > pada tahap ini data diambil dari sumbernya. Sumber data dapat berupa sistem transaksional, sensor atau media sosial
+Transform > tahap ini data dibersihkan dan diubah menjadi format yang dapat dianalisis. Proses ini dapat mencakup berbagai tugas, seperti menghapus duplikasi, memperbaiki kesalahan dan mengubah format data
+Load > tahap ini data disimpan dalam sistem. Untuk sistem dapat berupa database, data warehouse, atau data lake
+
+ELT:
+Extract > pada tahap ini data diambil dari sumbernya. Sumber data dapat berupa sistem transaksional, sensor atau media sosial
+Load > tahap ini data disimpan dalam sistem. Untuk sistem dapat berupa database, data warehouse, atau data lake
+Transform > tahap ini data dibersihkan dan diubah menjadi format yang dapat dianalisis. Proses ini dapat mencakup berbagai tugas, seperti menghapus duplikasi, memperbaiki kesalahan dan mengubah format data
+
+ETL lebih cocok untuk data yang terstruktur, sedangkan ELT lebih cocok untuk data yang tidak terstruktur
+ETL lebih cocok untuk data yang membutuhkan transformasi yang kompleks, sedangkan ELT lebih cocok untuk data yang membutuhkan transformasi yang sederhana
+ETL lebih cocok untuk lingkungan yang membutuhkan kontrol kualitas yang ketat, sedangkan ELT lebih cocok untuk lingkungan yang membutuhkan kecepatan dan skalabilitas
